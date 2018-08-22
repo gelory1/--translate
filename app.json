@@ -1,0 +1,29 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/history/history"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#1C1B21",
+    "navigationBarTitleText": " GP's 小翻译",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color":"#1C1B21",
+    "borderStyle":"white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "翻译"
+      },
+      {
+        "pagePath": "pages/history/history",
+        "text": "历史"
+      }
+    ],
+    "backgroundColor" :"white",
+    "selectedColor": "#737373",
+    "position":"top"
+  }
+}
