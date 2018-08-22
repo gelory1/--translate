@@ -1,7 +1,8 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/history/history"
+    "pages/history/history",
+    "pages/lan-select/lan-select"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -10,7 +11,7 @@
     "navigationBarTextStyle":"white"
   },
   "tabBar": {
-    "color":"#1C1B21",
+    "color":"#737373",
     "borderStyle":"white",
     "list": [
       {
@@ -23,7 +24,7 @@
       }
     ],
     "backgroundColor" :"white",
-    "selectedColor": "#737373",
+    "selectedColor": "#1C1B21",
     "position":"top"
   }
 }

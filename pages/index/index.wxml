@@ -1,4 +1,21 @@
 <!--index.wxml-->
 <view class="container">
-  
+  <view class="lanChange">
+    <navigator url='../lan-select/lan-select'>
+      <text>翻译为 英语 </text>
+      <image src='../../img/select_down.png'></image>
+    </navigator>
+  </view>
+  <view class='beforeTranslate'>
+    <textarea placeholder='请输入翻译内容' placeholder-style="color:#ccc"></textarea>  
+  </view>
+  <view class='aftereTranslate'>
+    <text class='title'>译文</text>
+    <text>sss</text>
+  </view>
+  <view class='copyright'>
+    <text>
+      ©耿朋 gengpeng1990@126.com
+    </text>
+  </view>
 </view>
