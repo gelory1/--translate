@@ -2,16 +2,22 @@
 <view class="container">
   <view class="lanChange">
     <navigator url='../lan-select/lan-select'>
-      <text>翻译为 英语 </text>
+      <text>翻译为 {{currentLang.chs}} </text>
       <image src='../../img/select_down.png'></image>
     </navigator>
   </view>
   <view class='beforeTranslate'>
-    <textarea placeholder='请输入翻译内容' placeholder-style="color:#ccc"></textarea>  
+    <textarea placeholder='请输入翻译内容' placeholder-style="color:#ccc" bindinput='onInput'
+      value='{{inputContent}}' bindconfirm='onSubmit' 
+    ></textarea>
+    <image src='../../img/cc-close.png' wx:if="{{closeVisible}}" bindtap='onClear'></image>
   </view>
   <view class='aftereTranslate'>
     <text class='title'>译文</text>
-    <text>sss</text>
+    <view wx:for="{{result}}" wx:key="*this">
+      <text>{{item.dst}}</text>
+    </view>
+    
   </view>
   <view class='copyright'>
     <text>

@@ -1,0 +1,17 @@
+.container.page{
+  padding: 40rpx;
+  background-color: #F5FAFE;
+  min-height: 100vh;
+  justify-content: flex-start;
+}
+.page .title{
+  padding-bottom: 20rpx;
+  color: #8E9AA5;
+}
+.page .historyList{
+  padding: 20rpx 0;
+}
+.page .historyList .from{
+  padding-bottom: 20rpx;
+  color: #8E9AA5;
+}

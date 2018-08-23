@@ -1,3 +1,8 @@
-<view>
-  {{name}}
+<view class='container page'>
+  <view class='title'>翻译历史</view>
+  <view class='historyList' wx:for="{{history}}" wx:key="{{index}}" bindtap='onSelectHis'
+   data-query='{{item.query}}' data-result='{{item.result}}'>
+    <view class='from'>{{item.query}}</view>
+    <view class='to'>{{item.result}}</view>
+  </view>
 </view>

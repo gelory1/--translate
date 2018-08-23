@@ -1,0 +1,25 @@
+.container .transTo{
+  padding: 20rpx;
+  color:#8E9AA5;
+  border-bottom: thin solid #ddd;
+}
+.container .list{
+  display: flex;
+  flex-direction: column;
+  padding-left: 40rpx;
+}
+.container .list .item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+.container .list .item text{
+  padding: 30rpx 40rpx;
+  padding-left: 0;
+}
+.container .list .item image{
+  width: 30rpx;
+  height: 30rpx;
+  padding: 30rpx 40rpx;
+}

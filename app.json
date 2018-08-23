@@ -7,10 +7,11 @@
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#1C1B21",
-    "navigationBarTitleText": " GP's 小翻译",
-    "navigationBarTextStyle":"white"
+    "navigationBarTitleText": " 小小翻译",
+    "navigationBarTextStyle":"#fff"
   },
   "tabBar": {
+    "backgroundColor": "#fff",
     "color":"#737373",
     "borderStyle":"white",
     "list": [
@@ -23,7 +24,6 @@
         "text": "历史"
       }
     ],
-    "backgroundColor" :"white",
     "selectedColor": "#1C1B21",
     "position":"top"
   }

@@ -1,3 +1,11 @@
-<view>
-  oooooo
+<view class='container'>
+  <text class='transTo'>翻译为</text>
+  <view class="list">
+    <view class="item" wx:for="{{langList}}" wx:key="index" bindtap='onSelected' 
+    data-chs="{{item.chs}}" data-lang="{{item.lang}}" data-index="{{item.index}}">
+      <text>{{item.chs}}</text>
+      <image src="../../img/selected.png" wx:if="{{index === selectedIndex}}"></image>
+    </view>
+    
+  </view>
 </view>
